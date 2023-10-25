@@ -1,0 +1,35 @@
+/* CSS esterno */ 
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 200px;
+}
+
+#sottologo {
+    text-align: center;
+    background-color: rgb(238, 238, 172);
+    padding: 10px;
+}
+
+* {
+    text-align: center;
+}
+
+#video {
+   
+    border-radius: 2%;
+
+}
+
+
+h5 {
+    color: rgb(109, 109, 109);
+    text-align: center;
+}
+
+#featured {
+    font-weight: bold;
+    color: brown;
+}
