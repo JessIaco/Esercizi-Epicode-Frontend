@@ -1,7 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 .container {
 
-    width: 400px;
+    width: 390px;
     margin: auto;
 }
 /* HEADER */
@@ -61,18 +61,29 @@ article {
     
 }
 
+iframe {
+    border: 1px solid #000;
+-moz-border-radius: 15px;
+border-radius: 15px;
+overflow: hidden;
+}
+
 th{
     color: white;
     background: rgb(65, 131, 246);
   }
 
+ tr:nth-child(even) { background: #CCCCCC; }
+
 .box1 , .box2 , .box3 , .box4 {
 
-    background-color: gray;
+    background-color: #f2f2f2;
 }
 
+.testinoviola a {
 
-
+    color: purple;
+}
 aside {
   
     padding: 40px;
@@ -86,6 +97,16 @@ aside {
 
 }
 
+.aside a {
+    font-weight: bold;
+    color: rgba(22, 151, 151, 0.851);
+}
+ 
+.data { 
+
+    text-indent: 80px;
+}
+
 footer {
    
     padding: 40px;
@@ -97,4 +118,9 @@ footer {
     background: rgb(0,136,170);
     background: linear-gradient(174deg, rgba(0,136,170,1) 0%, rgba(0,83,103,1) 100%);
 
+}
+
+footer a {
+
+    color: purple;
 }
