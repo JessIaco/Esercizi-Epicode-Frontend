@@ -1,0 +1,100 @@
+/* IMPOSTAZIONI GENERALI */
+.container {
+
+    width: 400px;
+    margin: auto;
+}
+/* HEADER */
+#headerepicode {
+    
+    padding: 40px;
+    text-align: center;
+    border: 1px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.21);
+    background-color: #0088aa;
+
+}
+
+
+ #titolo {
+
+    color: white;
+    margin-top: 5px;
+    text-align: auto;
+    }
+
+nav a {
+    color: white;
+    text-align: auto;
+    }
+
+.primalista {
+
+    list-style: none;
+}    
+
+ body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/Esercizi-Epicode-Frontend/Esercizio_261023/img/sfondo.png)
+ }
+p bold { 
+
+    color: gray;
+}
+
+p strong {
+    color: rgba(181, 31, 181, 0.751);
+}
+
+article {
+    
+    padding: 40px;
+    border: 1px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.21);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+th{
+    color: white;
+    background: rgb(65, 131, 246);
+  }
+
+.box1 , .box2 , .box3 , .box4 {
+
+    background-color: gray;
+}
+
+
+
+aside {
+  
+    padding: 40px;
+    border: 1px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.21);
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+footer {
+   
+    padding: 40px;
+    border: 1px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.21);
+    background: rgb(0,136,170);
+    background: linear-gradient(174deg, rgba(0,136,170,1) 0%, rgba(0,83,103,1) 100%);
+
+}
